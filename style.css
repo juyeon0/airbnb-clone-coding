@@ -1,0 +1,49 @@
+footer{
+    border:none;
+    font-size: 14px;
+    line-height: 18px;
+    background-color:#f7f7f7;
+    padding:0px 80px;
+}
+
+.info-list {
+    display:flex;
+    justify-content:space-between;
+    margin:0px 12px;
+    padding:48px 0px;
+}
+
+ul {
+    margin:auto;
+    padding:0;
+    list-style: none;
+}
+li {
+    float:left;
+    margin-right: 10px;
+
+}
+
+hr {
+    margin:0;
+}
+
+.basic-info {
+    display:flex;
+    align-items:center;
+    padding:24px 0px;
+}
+
+.earth{
+    display:flex;
+    width:17px;
+    height:17px;
+}
+
+.social{
+    display:flex;
+    float:right;
+    margin:auto;
+    width: 104px;
+    height: 20px;
+}
