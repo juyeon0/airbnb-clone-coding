@@ -1,0 +1,56 @@
+footer{
+    border:none;
+    font-size: 14px;
+    line-height: 18px;
+    background-color:#f7f7f7;
+    padding:0px 80px;
+}
+
+.info-list {
+    display:flex;
+    justify-content:space-between;
+    padding:48px 0px;
+    line-height:30px;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+.basic-info li:not(.icon):not(.detail):not(.KRW) {margin-right: 12px;
+}
+li.KRW {margin-right: 50px;}
+.basic-info {
+    display:flex;
+    padding-top:24px;
+    padding-bottom: 24px;
+    border-top: 1px solid;
+}
+
+.word-info-class {
+    display:flex;
+}
+
+.lang-price-class{
+    display:flex;
+}
+
+.earth{
+    display:flex;
+    width:17px;
+    height:17px;
+}
+
+.social-icon{
+    display:flex;
+    float:right;
+    margin:auto;
+    width: 140px;
+    height: 21px;
+}
+
+.basic-info{
+    display:flex;
+    justify-content:space-between;
+}
